@@ -1,0 +1,40 @@
+/** Borders */
+.SpecViewer {
+  padding: 20px;
+  max-width: 1240px;
+  margin: 0px auto; }
+  .SpecViewer > p {
+    font-size: 0.9em;
+    color: #606060; }
+  .SpecViewer .main {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .SpecViewer .main .label {
+      font-size: 1.1em;
+      font-weight: 600;
+      margin-bottom: .6em;
+      text-align: center; }
+      .SpecViewer .main .label small {
+        font-weight: normal; }
+    .SpecViewer .main .spec {
+      grid-column: 1 / span 2;
+      border: 1px solid #e2e2e2;
+      border-radius: 4px;
+      margin-top: 16px;
+      color: #606060; }
+      .SpecViewer .main .spec .visualizations {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-bottom: 1px solid #f3f3f3; }
+      .SpecViewer .main .spec .visualizations > * {
+        padding: 20px; }
+      .SpecViewer .main .spec .visualizations .Visualization {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .SpecViewer .main .spec .visualizations svg {
+        max-height: 600px;
+        max-width: 400px; }
+      .SpecViewer .main .spec p {
+        margin-left: 20px;
+        margin-right: 20px; }

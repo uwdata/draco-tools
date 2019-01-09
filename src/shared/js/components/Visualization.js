@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { equals } from 'shared/js/utilities/util';
+import { equals } from '../../../shared/js/utilities/util';
 import vegaEmbed, { vega } from 'vega-embed';
 
-import 'shared/scss/Visualization.css';
+import '../../scss/Visualization.css';
 
 export const datasets = {
   'data/cars.json': require('../../data/cars.json'),

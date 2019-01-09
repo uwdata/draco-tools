@@ -1,8 +1,8 @@
-import 'specviewer/scss/SpecViewer.css';
+import '../../scss/SpecViewer.css';
 
 import * as stringify from 'json-stable-stringify';
 import React, { Component } from 'react';
-import Visualization from 'shared/js/components/Visualization';
+import Visualization from '../../../shared/js/components/Visualization';
 
 class SpecViewer extends Component {
   constructor(props) {

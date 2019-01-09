@@ -1,9 +1,9 @@
-import 'labeler/scss/Labeler.css';
+import '../../scss/Labeler.css';
 
 import { diffJson } from 'diff';
 import * as stringify from 'json-stable-stringify';
 import React, { Component } from 'react';
-import Visualization, {datasets} from 'shared/js/components/Visualization';
+import Visualization, {datasets} from '../../../shared/js/components/Visualization';
 import { duplicate, unique } from 'vega-lite/build/src/util';
 
 const classnames = require('classnames');

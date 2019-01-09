@@ -1,0 +1,31 @@
+/** Borders */
+.DatasetViewer {
+  display: flex;
+  flex-direction: column;
+  padding: 24px; }
+  .DatasetViewer .header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; }
+    .DatasetViewer .header .summary {
+      margin-left: 48px; }
+  .DatasetViewer .group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    margin-bottom: 16px; }
+    .DatasetViewer .group .visualization {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer; }
+  .DatasetViewer .spec-view {
+    z-index: 1;
+    position: absolute;
+    padding: 8px;
+    background-color: #fff;
+    font-size: 10pt;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px; }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'datasetviewer/scss/DatasetChooser.css';
+import '../../scss/DatasetChooser.css';
 
 const classnames = require('classnames');
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import 'index/scss/App.css';
+import '../../scss/App.css';
 
 import ToolTile from './ToolTile';
-import SpecViewer from 'specviewer/js/components/SpecViewer';
-import Labeler from 'labeler/js/components/Labeler';
-import DatasetViewer from 'datasetviewer/js/components/DatasetViewer';
+import SpecViewer from '../../../specviewer/js/components/SpecViewer';
+import Labeler from '../../../labeler/js/components/Labeler';
+import DatasetViewer from '../../../datasetviewer/js/components/DatasetViewer';
 
 const TOOLS = [
   {

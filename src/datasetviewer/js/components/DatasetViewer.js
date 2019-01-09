@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import 'datasetviewer/scss/DatasetViewer.css';
+import '../../scss/DatasetViewer.css';
 
-import Visualization from 'shared/js/components/Visualization';
-import DatasetChooser from 'datasetviewer/js/components/DatasetChooser';
+import Visualization from '../../../shared/js/components/Visualization';
+import DatasetChooser from './DatasetChooser';
 
 const BASE_DIR = '/generated_visualizations/';
 const SPEC_DIR = BASE_DIR + 'specs/';

@@ -1,0 +1,70 @@
+/** Borders */
+.DatasetChooser {
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  width: 600px; }
+  .DatasetChooser .search-title {
+    flex: 0 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px 0 0 4px;
+    background-color: #e8e8e8;
+    font-size: 16px; }
+  .DatasetChooser .search-bar {
+    flex: 1 1 auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    border-radius: 0; }
+  .DatasetChooser .dimensions {
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    border-radius: 0 4px 4px 0; }
+    .DatasetChooser .dimensions .dim-option {
+      padding-left: 8px;
+      padding-right: 8px;
+      cursor: pointer; }
+    .DatasetChooser .dimensions .dim-option.selected {
+      background-color: #7492c1;
+      border-radius: 4px; }
+  .DatasetChooser .search-input {
+    flex: 1 1 auto;
+    border: none;
+    font-size: 12px;
+    color: #b5b5b5;
+    padding: 0 4px 0 8px; }
+  .DatasetChooser .search-input::placeholder {
+    color: #c9c8c8; }
+  .DatasetChooser .search-input:focus {
+    outline: none; }
+  .DatasetChooser .dropdown-content {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    top: 35px;
+    background-color: #fff;
+    max-height: 240px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    border: 1px solid #e8e8e8;
+    border-top-style: none; }
+  .DatasetChooser .dropdown-item {
+    margin: 0;
+    padding: 0 8px 0 8px;
+    cursor: pointer; }
+  .DatasetChooser .dropdown-item:hover {
+    background-color: #e8e8e8; }
+  .DatasetChooser .search-bar:focus-within .dropdown-content {
+    display: block; }

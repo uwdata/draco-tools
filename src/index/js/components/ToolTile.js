@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router'
 
-import 'index/scss/ToolTile.css';
+import '../../scss/ToolTile.css';
 
 class ToolTile extends Component {
   constructor(props) {

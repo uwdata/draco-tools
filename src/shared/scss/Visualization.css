@@ -1,0 +1,8 @@
+/** Borders */
+.Visualization {
+  flex-direction: column;
+  pointer-events: none; }
+  .Visualization .vega-actions a {
+    pointer-events: all;
+    font-size: .9em;
+    color: #e2e2e2; }
